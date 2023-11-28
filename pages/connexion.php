@@ -15,6 +15,7 @@
                 <td><input class="boutonP" type="reset" name="Annuler" value="Annuler"></td>
                 <td><input class="boutonP" type="submit" name="seConnecter" value="Valider"></td>
             </tr>
+
             <?php
             if (isset($_POST['seConnecter'])) {
                 $email = $_POST['email'];
@@ -26,6 +27,9 @@
                     $_SESSION['role'] = $unUser['role'];
                     $_SESSION['iduser'] = $unUser['iduser'];
                     //header("Location: index.php?page=0");
+                }
+                else{
+                    echo " <h2 style = text-align : center > L'indentifiant ou le Mot de passe saisie est incorecte </h2>";
                 }
             }
 
