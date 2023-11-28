@@ -1,4 +1,3 @@
-
 <main>
     <form method="post" action="#" class="form_connex" autocomplete="off">
         <h2>Merci de vous connecter pour rentrer sur notre site</h2>
@@ -26,13 +25,11 @@
                     $_SESSION['email'] = $unUser['email'];
                     $_SESSION['role'] = $unUser['role'];
                     $_SESSION['iduser'] = $unUser['iduser'];
-                    //header("Location: index.php?page=0");
                 }
                 else{
                     echo " <h2 style = text-align : center > L'indentifiant ou le Mot de passe saisie est incorecte </h2>";
                 }
             }
-
             ?>
         </table>
     </form>

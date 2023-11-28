@@ -19,10 +19,6 @@
                 <td class="tdtd"><input type="password" name="mdp" id="mdp" onblur="traiterMdp()"></td>
             </tr>
             <tr>
-                <td> Confirmer Mot de passe : </td>
-                <td class="tdtd"><input type="password" name="mdp1" id="mdp1" onblur="traiterMdp()"></td>
-            </tr>
-            <tr>
                 <td>Tél : </td>
                 <td class="tdtd"><input type="text" name="tel" id="tel" onblur="traiterTel()"></td>
             </tr>
