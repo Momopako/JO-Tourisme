@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/modele/modeleEvent.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/modele/modeleService.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/jo_paris.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1c8f70df-22f8-4c66-8e9f-2a22d36f164c/console.sql" dialect="MySQL" />
+  </component>
+</project>
